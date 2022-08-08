@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.ryori {
+  margin: 20px;
+}
+
+#container {
+  color: #666;
+  background-color: rgb(188, 209, 209);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 100%;
+  line-height: 1.5;
+  text-align: center;
+  position: center;
+  display: grid; 
+  grid-template-rows: 250px 250px 250px;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.item {
+  width: 400px;
+  margin-bottom: 30px;
+  background-color: rgba(240, 243, 222, 0.836);
+  border: 1px solid rgba(240, 243, 222, 0.836);
+  border-radius: 3px;
+}
+
+#item1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#item2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#item3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+#item4 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+#item5 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#item6 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#item7 {
+  grid-row: 3;
+  grid-column: 2;
+}
